@@ -1,10 +1,10 @@
 <template>
-    <div>
-        <!-- ------------------------- divider ------------------------ -->
-        <zz-border-box :height="'30vw'"
-                       :title="'1.UNI-扫码'">
-        </zz-border-box>
-    </div>
+  <div class="zz-page">
+    <!-- ------------------------- divider ------------------------ -->
+    <zz-border-box :height="'30vw'"
+                   :title="'1.UNI-扫码'">
+    </zz-border-box>
+  </div>
 </template>
 
 <script>

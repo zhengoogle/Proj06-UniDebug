@@ -17,7 +17,6 @@
 </template>
 
 <script>
-
 /**
  * H5工程@HTML/label
  * ---
@@ -74,7 +73,7 @@ const tsDemo = {
 
 export default {
   name: 'tsDemo',
-  components: {SimpleTitle},
+  components: {},
   methods: {
     ...tsDemo
   },
