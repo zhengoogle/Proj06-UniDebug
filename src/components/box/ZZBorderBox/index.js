@@ -1,4 +1,4 @@
-import ZZBorderBoxView from './ZZBorderBox.vue'
+import ZZBorderBoxView from './ZzBorderBox.vue'
 
 const ZZBorderBox = {
   install: function (Vue) {

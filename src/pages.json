@@ -2,6 +2,13 @@
   "pages": [
     //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
     {
+      "path": "pages/ui",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "UI"
+      }
+    },
+    {
       "path": "pages/api",
       "style": {
         "navigationBarTitleText": "API"
@@ -11,13 +18,6 @@
       "path": "pages/uni",
       "style": {
         "navigationBarTitleText": "UNI"
-      }
-    },
-    {
-      "path": "pages/ui",
-      "style": {
-        "navigationStyle": "custom",
-        "navigationBarTitleText": "UI"
       }
     },
     {

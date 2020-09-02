@@ -1,14 +1,15 @@
 <template>
   <div>
-    <border-box></border-box>
+    <!-- ------------------------- divider ------------------------ -->
+    <zz-border-box :height="'30vw'"
+                   :title="'1.UNI-自定义组件'">
+    </zz-border-box>
   </div>
 </template>
 
 <script>
-import BorderBox from '../debug/ui/custom/border-box/BorderBox'
 export default {
-  name: 'UI',
-  components: {BorderBox},
+  name: 'BorderBox',
   data () {
     return {
       data1: 10

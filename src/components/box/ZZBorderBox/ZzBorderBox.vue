@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: 'ZZBorderBox',
+  name: 'ZzBorderBox',
   /**
    * 组件定制参数
    * height：组件高度
@@ -78,6 +78,7 @@ export default {
     }
   },
   created () {
+    console.log(this.name, 'created')
     if (this.borderColorMode === 'random') {
       this.color = this.getRandomColor()
     } else {
@@ -97,7 +98,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
   .zbb-border-box {
     display: block;
   }
