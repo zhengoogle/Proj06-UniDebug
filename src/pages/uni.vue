@@ -1,10 +1,11 @@
 <template>
   <div class="zz-page">
-    <UniProj></UniProj>
     <!-- ------------------------- divider ------------------------ -->
-    <zz-border-box :height="'30vw'"
+    <!-- <zz-border-box :height="'30vw'"
                    :title="'1.UNI frame'">
-    </zz-border-box>
+    </zz-border-box> -->
+    <div style="color: #2C405A;">AAAa0</div>
+    <uni-proj></uni-proj>
   </div>
 </template>
 

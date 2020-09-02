@@ -4,15 +4,15 @@
     <zz-border-box :height="'30vw'"
                    :title="'1.QRCode ts'">
     </zz-border-box>
-    <QRCode></QRCode>
+    <qr-code></qr-code>
   </div>
 </template>
 
 <script>
-import QRCode from '../debug/api/qr-code/QRCode'
+import QrCode from '../debug/api/qr-code/QrCode'
 export default {
   name: 'API',
-  components: {QRCode},
+  components: {QrCode},
   data () {
     return {
       data1: 10
